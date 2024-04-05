@@ -7,11 +7,15 @@
  * @returns {string}
  */
 function wordLength (firstWord, secondWord ) {
+
+    let message ="";
     if (firstWord.length > secondWord.length) {
-        console.log(firstWord);
+        message = `la prima parola è più lunga`;
     } else if (firstWord.length < secondWord.length){
-        console.log(secondWord);
+        message = `la seconda parola è più lunga`;
     } else {
-        console.log(firstWord, secondWord);
+        message = `le parole sono lugnhe uguali`;
     }
+
+    return message;
 }

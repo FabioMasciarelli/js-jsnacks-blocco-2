@@ -3,7 +3,6 @@
 // Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
 
 // chiediamo all'utente di inserire due parole
-let userWords="";
 
 const firstWord = prompt("dimmi una parola");
 const secondWord = prompt("dimmi una parola");
