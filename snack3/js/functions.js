@@ -1,3 +1,9 @@
+/**
+ * Description placeholder
+ *
+ * @param {object} array
+ * @returns {number}
+ */
 function contaElementi (array) {
 
     let num =0;
