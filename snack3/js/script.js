@@ -1,16 +1,9 @@
 // scrivere una funzione contaElementi() che, dato un array in input, restituisca il numero di elementi presenti nell'array
 
-const array =[];
+const array =["pippo", "pluto", "paperino"];
 
-// chiedo all'utente di scrivere qualcosa
-let user = "";
+const result = contaElementi(array);
+console.log(result);
 
-for (let i = 0; i < 10; i++) {
 
-    user = prompt("dimmi qualcosa");
-    array.push(user);
-    console.log(array);
-    const count = contaElementi(array);
-    console.log(count);
-}
 
