@@ -6,10 +6,8 @@
 
 const number = prompt("inserisci un numero");
 
-const randomN = rndNumber(100, 1);
+const randomN = rndNumber(100, 1, 10);
 // console.log(randomN);
 
 
-const array = generateArray(number, randomN);
-console.log(array);
 
